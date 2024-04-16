@@ -445,3 +445,4 @@ C:\Users\user55\Desktop\Projects\DotNetCore\HMG Angular Project\hmgAPI\bin\Debug
 C:\Users\user55\Desktop\Projects\DotNetCore\HMG Angular Project\hmgAPI\bin\Debug\net8.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
 C:\Users\user55\Desktop\Projects\DotNetCore\HMG Angular Project\hmgAPI\bin\Debug\net8.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
 C:\Users\user55\Desktop\Projects\DotNetCore\HMG Angular Project\hmgAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\user55\Desktop\Projects\DotNetCore\HMG Angular Project\hmgAPI\obj\Debug\net8.0\hmgAPI.sourcelink.json

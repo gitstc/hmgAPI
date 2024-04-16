@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hmgAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8b92f5a8e639081aeada178dd05c25e4fd03c05")]
 [assembly: System.Reflection.AssemblyProductAttribute("hmgAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hmgAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

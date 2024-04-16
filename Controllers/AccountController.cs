@@ -124,7 +124,7 @@ public class AccountController : BaseApiController
     // }
 
     [HttpPost("login")]
-    public async Task<ActionResult> Login(LoginDto loginDto)
+    public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
     {
         if (string.IsNullOrEmpty(loginDto.Username))
         {
@@ -137,7 +137,7 @@ public class AccountController : BaseApiController
 
         //username in database(x.userName) matches username passed from client{loginDto}? 
         var user = await _userManager.Users
-        // .Include(m => m.Merchant)
+        .Include(m => m.Merchant)
         .SingleOrDefaultAsync(x => x.UserName == loginDto.Username);
 
         //return unauthorized if user is invalid
@@ -151,16 +151,21 @@ public class AccountController : BaseApiController
         if (!result) return Unauthorized("Incorrect Password");
 
         //return username and token of user to the client if login info correct
-        // return new UserDto
-        // {
-        //     Username = user.UserName,
-        //     Token = await _tokenService.CreateToken(user),
-        // };
-        return Ok(new Dictionary<string, object>(){
-            { "user", user },
-            { "username", user.UserName },
-            { "token", await _tokenService.CreateToken(user) }
-        });
+        return new UserDto
+        {
+            Username = user.UserName,
+            Token = await _tokenService.CreateToken(user),
+            Merchant = new MerchantDto
+            {
+                CompanyName = user.Merchant.CompanyName,
+                CoRegistrationNo = user.Merchant.CoRegistrationNo
+            }
+        };
+        // return Ok(new Dictionary<string, object>(){
+        //     { "user", user.Merchant },
+        //     { "username", user.UserName },
+        //     { "token", await _tokenService.CreateToken(user) }
+        // });
     }
 }
 
