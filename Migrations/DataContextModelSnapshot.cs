@@ -126,6 +126,10 @@ namespace hmgAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("MerchantCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("MerchantId");
 
                     b.ToTable("Merchants");

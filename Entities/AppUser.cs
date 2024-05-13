@@ -13,6 +13,7 @@ public class AppUser : IdentityUser<int>
    [Column(TypeName = "nvarchar(100)")]
    public string Address { get; set; }
 
+   //users can have many roles
    // to configure 
    //many to many relationship between users and roles
    public ICollection<AppUserRole> UserRoles { get; set; }

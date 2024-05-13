@@ -1,6 +1,5 @@
 using hmgAPI.Entities;
 using hmgAPI.Interfaces;
-using hmgAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -81,20 +80,6 @@ namespace hmgAPI.Controllers
 
         }
 
-        [HttpGet("merchant")]
-        public async Task<ActionResult> GetMerchantByMobileNumber([FromQuery(Name = "mobileNumber")] string mobileNumber) {
-            Merchant merchant = await _oracleService.GetMerchantByMobileNumber(mobileNumber);
-            return Ok(merchant);
-        }
-        [HttpGet("merchant/invoices")]
-        public async Task<ActionResult> GetMerchantInvoices([FromQuery(Name = "merchantCode")] string merchantCode) {
-            List<Invoice> invoices = await _oracleService.GetMerchantInvoices(merchantCode);
-            return Ok(invoices);
-        }
-        [HttpGet("merchant/serials")]
-        public async Task<ActionResult> GetMerchantSerials([FromQuery(Name = "merchantCode")] string merchantCode) {
-            List<MerchantSerial> serials = await _oracleService.GetMerchantSerials(merchantCode);
-            return Ok(serials);
-        }
+     
     }
 }

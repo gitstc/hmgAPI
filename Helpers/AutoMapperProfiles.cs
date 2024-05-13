@@ -11,5 +11,10 @@ public class AutoMapperProfiles : Profile
         CreateMap<RegisterDto, AppUser>();
         CreateMap<RegisterDto, AppMerchant>();
         CreateMap<LoginDto, AppUser>();
+        //
+        CreateMap<UserDto, AppUser>();
+        //
+        CreateMap<UserDto, AppMerchant>();
+
     }
 }

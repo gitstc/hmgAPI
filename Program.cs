@@ -6,6 +6,7 @@ using hmgAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -49,15 +50,25 @@ builder.Services.AddIdentityCore<AppUser>(opt =>
 
 
 //TOKEN CONFIG
+
+//JWT Authentication so that
+// when user login they should (have a token to access a specific api)
+//if they don't have a token this mean they are not logged in
+//so they can't access a specific api 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
 {
     //inside this we specify all rules about how server should validate this token
     options.TokenValidationParameters = new TokenValidationParameters
     {
+        //server checks token signingKey
+        //to see if token i signed by issuer
         ValidateIssuerSigningKey = true,
+        //specify what is our issuer signing key 
+        //which is our token key
         IssuerSigningKey = new SymmetricSecurityKey
-        (Encoding.UTF8.GetBytes(builder.Configuration.GetValue<string>("TokenKey"))),
+        (Encoding
+        .UTF8.GetBytes(builder.Configuration.GetValue<string>("TokenKey"))),
         ValidateIssuer = false,
         ValidateAudience = false
     };
@@ -99,10 +110,26 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapControllers();
+app.MapFallbackToController("Index", "Fallback");
 // app.UseHttpsRedirection();
 
-// app.UseAuthentication();
-// app.UseAuthorization();
+//for authentication user by their tokens
+//to access [authorize] controller
+//for the user to send token he has to prove he's valid 
+app.UseAuthentication(); // do you have a valid token?
+app.UseAuthorization(); // if you have a token what are you allowed to do?
+
+app.UseDefaultFiles(new DefaultFilesOptions {
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "browser")
+    ),
+    DefaultFileNames = new List<string> { "index.html" }
+});
+app.UseStaticFiles(new StaticFileOptions {
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "browser")
+    )
+});
 
 app.Run();
 

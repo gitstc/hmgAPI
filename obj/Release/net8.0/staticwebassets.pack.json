@@ -1,0 +1,273 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\admin\\index.html",
+      "PackagePath": "staticwebassets\\browser\\admin\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\logout.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\logout.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\myInvoiceAndPayments.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\myInvoiceAndPayments.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\myaccount.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\myaccount.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\myorders.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\myorders.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\mypricelist.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\mypricelist.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\otp.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\otp.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\soa.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\soa.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\HomePageCards\\warrantyactivation.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\HomePageCards\\warrantyactivation.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\account.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\account.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\addtocart.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\addtocart.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\backarrow.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\backarrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\checkmark.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\checkmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\clock.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\clock.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\drycleaning.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\drycleaning.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\groups.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\groups.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\i18n\\ar.json",
+      "PackagePath": "staticwebassets\\browser\\assets\\i18n\\ar.json"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\i18n\\ar.ts",
+      "PackagePath": "staticwebassets\\browser\\assets\\i18n\\ar.ts"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\i18n\\en.json",
+      "PackagePath": "staticwebassets\\browser\\assets\\i18n\\en.json"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\i18n\\en.ts",
+      "PackagePath": "staticwebassets\\browser\\assets\\i18n\\en.ts"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\logo.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\navigationbar.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\navigationbar.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\rightarrow.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\rightarrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\search.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\slider.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\slider.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\assets\\users.svg",
+      "PackagePath": "staticwebassets\\browser\\assets\\users.svg"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\favicon.ico",
+      "PackagePath": "staticwebassets\\browser\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\hmg-admin-approval\\index.html",
+      "PackagePath": "staticwebassets\\browser\\hmg-admin-approval\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\home\\index.html",
+      "PackagePath": "staticwebassets\\browser\\home\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\index.html",
+      "PackagePath": "staticwebassets\\browser\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\login\\index.html",
+      "PackagePath": "staticwebassets\\browser\\login\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\main-JJNMRECF.js",
+      "PackagePath": "staticwebassets\\browser\\main-JJNMRECF.js"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\main-XHI56K75.js",
+      "PackagePath": "staticwebassets\\browser\\main-XHI56K75.js"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\my-account\\index.html",
+      "PackagePath": "staticwebassets\\browser\\my-account\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\my-invoices-and-payments\\index.html",
+      "PackagePath": "staticwebassets\\browser\\my-invoices-and-payments\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\my-orders\\index.html",
+      "PackagePath": "staticwebassets\\browser\\my-orders\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\my-price-list\\index.html",
+      "PackagePath": "staticwebassets\\browser\\my-price-list\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\payment-checkout\\index.html",
+      "PackagePath": "staticwebassets\\browser\\payment-checkout\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\payment-terms-and-conditions\\index.html",
+      "PackagePath": "staticwebassets\\browser\\payment-terms-and-conditions\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\polyfills-BJX5WH5B.js",
+      "PackagePath": "staticwebassets\\browser\\polyfills-BJX5WH5B.js"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\price-list-product\\index.html",
+      "PackagePath": "staticwebassets\\browser\\price-list-product\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\product-warranty-activation\\index.html",
+      "PackagePath": "staticwebassets\\browser\\product-warranty-activation\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\product-warranty-start-activation\\index.html",
+      "PackagePath": "staticwebassets\\browser\\product-warranty-start-activation\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\register\\index.html",
+      "PackagePath": "staticwebassets\\browser\\register\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\scripts-QD5DIIKG.js",
+      "PackagePath": "staticwebassets\\browser\\scripts-QD5DIIKG.js"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\soa\\index.html",
+      "PackagePath": "staticwebassets\\browser\\soa\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\styles-ACS72XAT.css",
+      "PackagePath": "staticwebassets\\browser\\styles-ACS72XAT.css"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\users-rights\\index.html",
+      "PackagePath": "staticwebassets\\browser\\users-rights\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\users\\index.html",
+      "PackagePath": "staticwebassets\\browser\\users\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\warranty-activation-list\\index.html",
+      "PackagePath": "staticwebassets\\browser\\warranty-activation-list\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\browser\\warranty-activation-otp\\index.html",
+      "PackagePath": "staticwebassets\\browser\\warranty-activation-otp\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\prerendered-routes.json",
+      "PackagePath": "staticwebassets\\prerendered-routes.json"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\chunk-NUKF3M6G.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-NUKF3M6G.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\chunk-O73ZHKXN.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-O73ZHKXN.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\chunk-QK7QPBRL.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-QK7QPBRL.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\chunk-VVCT4QZE.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-VVCT4QZE.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\chunk-Z7QHEOYC.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-Z7QHEOYC.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\index.server.html",
+      "PackagePath": "staticwebassets\\server\\index.server.html"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\main.server.mjs",
+      "PackagePath": "staticwebassets\\server\\main.server.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\polyfills.server.mjs",
+      "PackagePath": "staticwebassets\\server\\polyfills.server.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\render-utils.server.mjs",
+      "PackagePath": "staticwebassets\\server\\render-utils.server.mjs"
+    },
+    {
+      "Id": "C:\\Users\\user55\\Desktop\\Projects\\DotNetCore\\HMG Angular Project\\hmgAPI\\wwwroot\\server\\server.mjs",
+      "PackagePath": "staticwebassets\\server\\server.mjs"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.hmgAPI.props",
+      "PackagePath": "build\\hmgAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.hmgAPI.props",
+      "PackagePath": "buildMultiTargeting\\hmgAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.hmgAPI.props",
+      "PackagePath": "buildTransitive\\hmgAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.hmgAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

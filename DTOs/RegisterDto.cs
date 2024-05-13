@@ -5,21 +5,21 @@ namespace hmgAPI.DTOs;
 public class RegisterDto
 {
     [Required]
-    public string CompanyName { get; set; } //companyName 
+    public string CompanyName { get; set; }
 
     [Required]
-    public string CoRegistrationNo { get; set; } //companyRegistrationNo
+    public string CoRegistrationNo { get; set; }
 
     [Required]
-    public string Email { get; set; } //email
+    public string Email { get; set; }
 
     [Required]
     public string Mobile { get; set; } // mobile //username 
 
     [Required]
-    public string Address { get; set; } //address 
+    public string Address { get; set; }
 
     [Required]
-    public string Password { get; set; } //password
+    public string Password { get; set; }
 
 }

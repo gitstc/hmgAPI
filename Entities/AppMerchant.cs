@@ -16,6 +16,9 @@ namespace hmgAPI.Entities
         [Required]
         public string CoRegistrationNo { get; set; }
 
+        [Required]
+        public string MerchantCode { get; set; }
+
 
         //merchant can have many users
         //navigation prop to config relationship

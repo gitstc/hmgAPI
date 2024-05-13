@@ -29,20 +29,19 @@ namespace hmgAPI.Data
             base.OnModelCreating(builder);
 
 
-            //configure join table between appUser and appRole
-
+            //configure join table between appUser and appRole( many to many relationship)
             ///side of relationship
             builder.Entity<AppUser>()
-            .HasMany(ur => ur.UserRoles)
-            .WithOne(u => u.User)
-            .HasForeignKey(ur => ur.UserId)
+            .HasMany(ur => ur.UserRoles) // user has many roles
+            .WithOne(u => u.User) // each role can belong to one user 
+            .HasForeignKey(ur => ur.UserId) //foreign key is userId
             .IsRequired(); //for foreign key not to be null
 
             ///other side of relationship
             builder.Entity<AppRole>()
-            .HasMany(ur => ur.UserRoles)
-            .WithOne(u => u.Role)
-            .HasForeignKey(ur => ur.RoleId)
+            .HasMany(ur => ur.UserRoles) // role have many users
+            .WithOne(u => u.Role) // each user belong to one role
+            .HasForeignKey(ur => ur.RoleId) //foreign key is RoleId
             .IsRequired();//for foreign key not to be null
 
 
@@ -50,7 +49,7 @@ namespace hmgAPI.Data
             .HasMany(u => u.Users) // merhcant has many users
             .WithOne(m => m.Merchant)  // eash user belongs to one merchant
             .HasForeignKey(m => m.MerchantId) //foreign key is merchantId 
-            .IsRequired();
+            .IsRequired();//for foreign key not to be null
 
         }
     }
